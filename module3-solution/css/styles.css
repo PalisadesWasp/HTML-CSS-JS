@@ -1,1 +1,76 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: WhiteSmoke;
+	font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 10px;
+}
+.navbar-brand h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header {
+	margin-bottom: 10px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#collapsable-nav #nav-list a {
+	color: white;
+	font-size: 1.5em;
+	line-height: 1.8em;
+}
+#collapsable-nav #nav-list hr {
+	margin: 0;
+}
+#main-title {
+	color: black;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.menu-categories-title {
+	color: black;
+	font-weight: bold;
+}
+.category-tile {
+	position: relative;
+	height: 700px;
+	background-color: LightGrey;
+	margin-bottom: 40px;
+}
+.category-tile p {
+	color: black;
+}
+.back-to-main-title {
+	position: absolute;
+	bottom: 0;
+}
 
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	.collapse, .navbar-collapse {
+		background-color: DarkGray;
+	}
+}
